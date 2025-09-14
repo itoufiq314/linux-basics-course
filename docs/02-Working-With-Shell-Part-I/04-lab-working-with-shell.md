@@ -6,7 +6,8 @@
    ```
    $ grep bob /etc/passwd | cut -d ":" -f6
    ```
-1. To check the home directory for a particular user using built in shell variables
+1. To check the home directory for a particular user using built in shell variables <br>
+$HOME → current user এর home directory path দেখায়
    ```
    $ echo $HOME
    ```
@@ -45,7 +46,7 @@
    ```
    $ mv /home/bob/reptile/snake /home/bob/reptile/crocodile
    ```
-1. To delete a directory
+1. To delete a directory recursively
    ```
    $ rm -r /home/bob/reptile
    ```
