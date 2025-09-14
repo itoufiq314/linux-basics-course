@@ -35,7 +35,8 @@ To change a directory from the current directory. Run **`cd <directory_name>`**
 $ cd Asia
 ```
 
-To recursively created directories. Run **`mkdir -p <directory_name1>/<sub_directory_of_name1>`**
+To recursively created directories. Run **`mkdir -p <directory_name1>/<sub_directory_of_name1>`**<br><br>
+কোন parent directory না থাকলেও, সবগুলো automatically তৈরি হবে
 ```
 $ mkdir -p India/Mumbai
 ```
