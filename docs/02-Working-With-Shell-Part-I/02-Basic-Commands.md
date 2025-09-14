@@ -59,8 +59,10 @@ $ cd
 
 **Difference Between Absolute and Relative Path**
 
-- **Absolute Path** : An absolute path is defined as specifying the location of a file or directory from the root directory(/).
-- **Relative Path** : Relative path is defined as the path related to the present working directly(pwd).
+- **Absolute Path** : An absolute path is defined as specifying the location of a file or directory from the root directory(/).<br><br>
+Absolute path হলো ফাইল বা directory এর সম্পূর্ণ path, যা root directory / থেকে শুরু হয় । এর মাধ্যমে যে কোনো location এ সরাসরি যাওয়া যায় , কারণ এটি পুরো Path উল্লেখ করে।
+- **Relative Path** : Relative path is defined as the path related to the present working directly(pwd).<br><br>
+Relative path হলো বর্তমান working directory (pwd) থেকে সম্পর্কিত path। বর্তমান working directory থেকে সহজে sub-directory বা sibling directory এ যাওয়ার জন্য।
 
 To change to a directory with absolute path. Run **`cd <directory_path>`**
 ```
