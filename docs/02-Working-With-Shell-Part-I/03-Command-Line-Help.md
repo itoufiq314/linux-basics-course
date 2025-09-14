@@ -35,3 +35,7 @@ To search through the man page names and descriptions for instances of the keywo
 ```
 $ apropos modpr
 ```
+<br>
+1.  যখন কোন command মনে  থাকে না কিন্তু কাজ মনে থাকে। Example: “copy files” করতে কোন command আছে জানার জন্য -> apropos copy
+<br>
+2. Example: apropos network → network সম্পর্কিত সব commands দেখাবে।
