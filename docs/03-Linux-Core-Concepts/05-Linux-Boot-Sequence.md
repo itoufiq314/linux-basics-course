@@ -41,7 +41,12 @@ In this section, we look at the boot process in a simplied manner by dividing it
  ![kernel-initialize](../../images/kernel-initialize.PNG)
  
  #### INIT Process
- 
+ - INIT হলো system-এর first process
+👉 কাজ:
+System startup complete করা, 
+Services চালু করা, 
+Runlevel/target manage করা
+ - OS boot হওয়ার পর সবচেয়ে প্রথম যে process run হয় (PID = 1), সেটাই systemd
  - In most of the current day linux distribution, the **`INIT`** function then calls the **`systemd`** daemon.
  - The **`systemd`** is responsible for bringing the linux host to usable state.
  - **`systemd`** is responsible for mounting the file systems, starting and managing system services.
@@ -53,4 +58,20 @@ In this section, we look at the boot process in a simplied manner by dividing it
  ```
  $ ls -l /sbin/init
  ```
- 
+Boot Flow Summary  
+```
+Power On
+   ↓
+BIOS/UEFI
+   ↓
+Bootloader (GRUB)
+   ↓
+Kernel
+   ↓
+systemd (INIT, PID 1)
+   ↓
+Services start
+   ↓
+System Ready
+
+```
