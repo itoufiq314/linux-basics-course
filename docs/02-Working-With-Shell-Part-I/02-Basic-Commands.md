@@ -100,16 +100,15 @@ $ popd
 
 ![before_after_commands](../../images/before_after_commands.PNG)
 
-To move file or directory. Run **`mv <source> <destination>`** command
-```
-$ mv /home/michael/Europe/Morocco /home/michael/Africa/ (Absolute path)
-$ mv Europe/Morocco Africa/ (Relative Path)
-```
 
-To rename a directory. Run **`mv <oldname> <newname>`** command
-```
-$ mv Asia/India/Munbai Asia/India/Mumbai
-```
+## Move & Rename : `mv` command
+1.  Move -  `mv document.txt /home/user/Documents/`
+2.  Rename - `mv old_name.txt new_name.txt`
+3.  Move with rename - `mv report.pdf /home/user/Documents/final_report.pdf`
+4.  Prevent Overwriting(-n flugs) - `mv -n file.txt /home/user/Documents/`
+5.  Interactive Confirmation (-i Flag) - `mv -i file.txt /home/user/Documents/`
+   
+## Copy : `cp` command
 
 To copy a file to a directory. Run **`cp <filename> <destination_directorypath>`** command
 ```
